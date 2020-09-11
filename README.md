@@ -74,3 +74,18 @@ if(property==property2)
   console.log("World")
 }
 ```
+
+## 6. Czy program wykona się poparwnie?
+ 
+ ```javasrcript
+const  property="";
+const  property="Ala ma kota";
+```
+
+
+## 7. Czy program wykona się poparwnie?
+ 
+ ```javasrcript
+let  property="";
+let property="Ala ma kota";
+```
