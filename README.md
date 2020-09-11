@@ -140,7 +140,7 @@ for( let x of values)
 ```
 
 
-## 12. Co wyświetli program?
+## 13. Co wyświetli program?
 
  ```javasrcript
 const user = { name: "Ala", lastname:"Ma kota", age: 12}
@@ -152,3 +152,78 @@ for( let property in client )
   console.log(client[property])
 }
 ```
+
+
+## 14. Co wyświetli program?
+
+ ```javasrcript
+const girls=["Ania","Basia","Joanna"]
+
+console.log(girls[1]);
+
+```
+
+
+## 15. Co wyświetli program?
+
+ ```javasrcript
+const girls=["Ania","Basia","Joanna"]
+
+console.log(girls.length);
+
+```
+
+
+## 16. Co wyświetli program?
+
+ ```javasrcript
+const girls=["Ania","Basia","Joanna"]
+
+console.log(girls[girls.length-1]);
+
+```
+
+
+## 17. Co wyświetli program?
+
+ ```javasrcript
+const girls=["Ania","Basia","Joanna"]
+
+console.log(girls[girls.length-1]);
+
+```
+
+## 18. Co wyświetli program?
+
+ ```javasrcript
+const girls=["Ania","Basia","Joanna"]
+const boys=["Paweł","Robert","Rafał"]
+const people=[...girls,...boys]
+
+const fewPeople=[...people.slice(3,4),...people.slice(5,6)]
+
+console.log(fewPeople);
+```
+
+## 19. Co wyświetli program?
+ ```javasrcript
+const girls={"Ania":1,"Basia":2,"Joanna":3}
+const boys=["Paweł","Robert","Rafał"]
+const people=[...Object.keys(girls),...boys]
+
+console.log(people);
+```
+
+## 20. Co wyświetli program?
+ ```javasrcript
+const user={"name":"Jacek","Forname":"Łoziński"}
+user["age"]=45;
+const hobby=["Sport","Muzyka","oraz Gry"];
+user.hobby=hobby;
+hobby.shift();
+console.log(user);
+```
+
+
+
+
