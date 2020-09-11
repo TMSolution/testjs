@@ -119,7 +119,7 @@ let user = { name: "Ala", lastname:"Ma kota", age: 12}
 
 for( let property in user)
 {
-  console.log(property)
+  console.log(user[property])
 }
 ```
 
