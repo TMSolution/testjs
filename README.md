@@ -174,7 +174,7 @@ console.log(girls.length);
  ```javasrcript
 const girls=["Ania","Basia","Joanna"]
 
-console.log(girls[girls.length-1]);
+console.log(girls[0]);
 
 ```
 
