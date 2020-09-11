@@ -30,16 +30,7 @@ if(property==="Miś")
 }
 ```
 
-## 3. Czy kod wykona się poprawnie? Uzasadnij dlaczego.
- 
- ```javasrcript
-const  property="Miś";
 
-if(property==="Miś")
-{
-  property="Kotek";
-}
-```
 
 ## 4. Co wyświetli program?
  
@@ -100,8 +91,12 @@ property="Ala ma kota";
 ## 9. Czy program wykona się poparwnie? Uzasadnij
  
  ```javasrcript
-let  property="";
-property="Ala ma kota";
+const  property="Miś";
+
+if(property==="Miś")
+{
+   let property="Kotek";
+}
 ```
 
 ## 10. Co wyświetli program?
