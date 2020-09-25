@@ -22,7 +22,7 @@ console.log(index)
 ```
 
 
-## 3. Czy kod wykona się poprawnie? Uzasadnij dlaczego.
+## 3. Co wyświetli program?
  
  ```javasrcript
 const numbers=[1,2,3];
