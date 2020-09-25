@@ -85,7 +85,7 @@ index = array.lastIndexOf(2);
 console.log(index)
 ```
 
-## 9. Czy program wykona się poparwnie? Uzasadnij
+## 9. Co wyświetli program?
  
  ```javasrcript
 var  letters = ['A', 'B', 'C', 'D'];
