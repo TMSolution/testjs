@@ -1,4 +1,4 @@
-# Test - Tablice w Js
+# Ciągi i matematyka
 
 ## 1. Co wyświetli program?
  
